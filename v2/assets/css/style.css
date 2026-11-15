@@ -353,3 +353,30 @@ textarea{min-height:130px;resize:vertical}
   .brand img{height:38px}
   .stats b{font-size:44px}
 }
+
+/* outcomes: less / more */
+.lessmore{display:grid;grid-template-columns:repeat(4,1fr);gap:0 32px}
+.lm{border-top:2px solid var(--navy);padding-top:22px}
+.lm h3{font-family:var(--serif);font-weight:400;font-size:27px;color:var(--navy);line-height:1.15;margin-bottom:16px}
+.lm .row{display:grid;grid-template-columns:46px 1fr;gap:10px;font-size:15px;padding:10px 0;border-top:1px solid var(--line)}
+.lm .row b{font-size:11px;letter-spacing:.14em;text-transform:uppercase;padding-top:3px}
+.lm .less b{color:var(--slate)} .lm .less span{color:var(--slate)}
+.lm .more b{color:var(--gold)} .lm .more span{color:var(--ink);font-weight:600}
+/* why SC */
+.why{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:start}
+.quote{background:var(--white);border-radius:12px;border:1px solid var(--stone);padding:34px 34px 30px}
+.quote blockquote{font-family:var(--serif);font-size:24px;line-height:1.4;color:var(--navy)}
+.quote cite{display:block;font-style:normal;font-size:14px;color:var(--slate);margin-top:18px}
+/* situation pages */
+.sit-grid{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:start}
+.starts{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.start{background:var(--white);border:1px solid var(--line);border-radius:12px;padding:26px;text-decoration:none;display:flex;flex-direction:column;transition:border-color .2s}
+.start:hover{border-color:var(--navy)}
+.start .caps{color:var(--gold);font-size:11.5px}
+.start h3{font-family:var(--serif);font-weight:500;font-size:21px;color:var(--navy);margin:8px 0 6px;line-height:1.25}
+.start p{font-size:15px;flex:1}
+.start .arrow-link{margin-top:14px;align-self:flex-start}
+.supply{border:1.5px dashed var(--stone);border-radius:12px;padding:22px 24px;color:#6d6455;font-size:15px;margin-top:28px}
+.supply b{color:var(--navy)}
+@media (max-width:1024px){.lessmore{grid-template-columns:1fr 1fr;gap:36px 32px}.why,.sit-grid{grid-template-columns:1fr;gap:44px}.starts{grid-template-columns:1fr 1fr}}
+@media (max-width:640px){.lessmore,.starts{grid-template-columns:1fr}}
