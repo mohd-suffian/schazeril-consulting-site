@@ -431,17 +431,17 @@ textarea{min-height:130px;resize:vertical}
 /* hero option C: centred statement, navy with watermark */
 .heroC{background:#0f1b40;color:#cfd6e6;text-align:center;position:relative;overflow:hidden}
 .heroC .mark{position:absolute;left:50%;top:50%;width:760px;transform:translate(-50%,-52%);opacity:.045;filter:blur(3px);pointer-events:none}
-.heroC .wrap{position:relative;padding:120px 40px 0}
+.heroC .wrap{position:relative;padding:84px 40px 0}
 .heroC .caps{color:#b9a273;margin-bottom:26px}
-.heroC h1{font-family:var(--serif);font-weight:400;font-size:clamp(56px,8.4vw,128px);line-height:.95;letter-spacing:-.03em;color:var(--white);max-width:1000px;margin:0 auto}
+.heroC h1{font-family:var(--serif);font-weight:400;font-size:clamp(52px,7.4vw,112px);line-height:.95;letter-spacing:-.03em;color:var(--white);max-width:1000px;margin:0 auto}
 .heroC h1 em{font-style:italic;color:#d8c39a}
-.heroC .lead{color:#c9d1e3;margin:30px auto 0;max-width:640px}
+.heroC .lead{color:#c9d1e3;margin:24px auto 0;max-width:640px}
 .heroC .btns{justify-content:center}
-.mcols{display:grid;grid-template-columns:repeat(3,1fr);max-width:900px;margin:72px auto 0;border-top:1px solid rgba(185,162,115,.4)}
-.mcols p{font-family:var(--serif);font-size:22px;color:var(--white);padding:26px 16px 30px;line-height:1.25}
+.mcols{display:grid;grid-template-columns:repeat(3,1fr);max-width:900px;margin:48px auto 0;border-top:1px solid rgba(185,162,115,.4)}
+.mcols p{font-family:var(--serif);font-size:22px;color:var(--white);padding:20px 16px 22px;line-height:1.25}
 .mcols p+p{border-left:1px solid rgba(185,162,115,.4)}
 .mcols p b{display:block;font-family:var(--sans);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#b9a273;margin-bottom:6px}
-.waysC{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid rgba(255,255,255,.12);margin-top:56px}
+.waysC{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid rgba(255,255,255,.12);margin-top:32px}
 .waysC a{padding:24px 12px 28px;text-decoration:none;color:#fff;font-family:var(--serif);font-size:22px;transition:background .2s}
 .waysC a+a{border-left:1px solid rgba(255,255,255,.12)}
 .waysC a small{display:block;font-family:var(--sans);font-size:13px;color:#aab3c7;margin-top:2px}
