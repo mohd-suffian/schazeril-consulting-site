@@ -125,6 +125,19 @@ a{color:inherit}
 .htl h3{font-size:17px;font-weight:600;color:var(--ink);line-height:1.35;margin:6px 0 4px}
 .htl p{font-size:14.5px;color:var(--muted);line-height:1.5}
 
+/* ---------- who we are (HOREN-style) ---------- */
+.who{display:grid;grid-template-columns:1fr 340px;gap:80px;align-items:center}
+.capslabel{font-size:13px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--blue);margin-bottom:16px}
+.who .title{font-size:clamp(30px,3.2vw,46px)}
+.who p.copy{font-size:18px;color:var(--text);margin-top:20px;max-width:760px;line-height:1.8}
+.who .more{margin-top:26px}
+.pcard{background:var(--white);border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(27,43,92,.08);border:1px solid #ececec}
+.pcard img{width:100%;aspect-ratio:1/.92;object-fit:cover;object-position:30% 25%;height:auto}
+.pcard .pc-body{padding:22px 24px 26px}
+.pcard .pc-name{font-size:19px;font-weight:700;color:var(--ink)}
+.pcard .pc-role{font-size:12.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--blue);margin-top:2px}
+.pcard blockquote{font-style:italic;font-size:15.5px;line-height:1.6;color:var(--text);margin-top:14px}
+
 /* ---------- about ---------- */
 .portrait{width:100%;aspect-ratio:1;object-fit:cover;height:auto}
 .about-copy p{margin-top:14px;max-width:var(--measure)}
@@ -201,7 +214,8 @@ textarea{min-height:130px;resize:vertical}
   .cards,.qgrid{grid-template-columns:1fr 1fr}
   .pillars{grid-template-columns:1fr 1fr;gap:28px 32px}
   .statements.cols{grid-template-columns:1fr;gap:0}
-  .split,.contact-grid,.legal-grid{grid-template-columns:1fr;gap:40px}
+  .split,.contact-grid,.legal-grid,.who{grid-template-columns:1fr;gap:40px}
+  .pcard{max-width:380px}
   .split.rev>.ph{order:0}
   .toc{position:static}
   .prow{grid-template-columns:1fr;gap:12px}
