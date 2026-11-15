@@ -261,3 +261,10 @@ textarea{min-height:130px;resize:vertical}
 
 /* rounded images */
 .card .ph,.split .ph,.portrait{border-radius:12px;overflow:hidden}
+
+/* hide header duplicates while their footer/closing twins are visible */
+.site-header .brand,.site-header .btn{transition:opacity .3s ease,visibility .3s}
+.site-header.no-logo .brand,.site-header.no-cta .btn{opacity:0;visibility:hidden;pointer-events:none}
+.fbrand{display:flex;align-items:center;gap:14px;margin-bottom:14px}
+.fbrand img{height:40px;width:auto}
+.fbrand .wordmark{margin:0}

@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://images.unsplash.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=10">
+<link rel="stylesheet" href="assets/css/style.css?v=12">
 </head>
 <body>
 <header class="site-header"><div class="wrap">
@@ -62,7 +62,7 @@
 </main>
 <footer class="site-footer">
   <div class="ftop"><div class="wrap fgrid">
-    <div><div class="wordmark">Schazeril <span>Consulting</span></div><p>Delivering a High-Performance Exosystem&trade;<br>People. Decisions. Possibilities.</p></div>
+    <div><div class="fbrand"><img src="assets/img/logo-mark-white.png" alt="" width="40" height="40"><div class="wordmark">Schazeril <span>Consulting</span></div></div><p>Delivering a High-Performance Exosystem&trade;<br>People. Decisions. Possibilities.</p></div>
     <div><h4>Services</h4><ul>
       <li><a href="exosystem.html">The Exosystem&trade;</a></li><li><a href="executive-advisor.html">SC Executive Advisor</a></li></ul></div>
     <div><h4>Company</h4><ul>
@@ -76,5 +76,13 @@
     <div class="right"><span class="credit">Photos: Unsplash</span><span>Powered by <b><a href="https://kltech.my" target="_blank" rel="noopener">KL Tech</a></b></span></div>
   </div></div>
 </footer>
+<script>
+(function(){var h=document.querySelector('.site-header');if(!h||!('IntersectionObserver' in window))return;
+function watch(sel,cls){var el=document.querySelector(sel);if(!el)return;
+new IntersectionObserver(function(es){es.forEach(function(e){h.classList.toggle(cls,e.isIntersecting)})},{threshold:0.01}).observe(el)}
+watch('.site-footer .fbrand','no-logo');
+watch('.closing .btn','no-cta');
+if(/contact([.]html)?$/.test(location.pathname))h.classList.add('no-cta');})();
+</script>
 </body>
 </html>
