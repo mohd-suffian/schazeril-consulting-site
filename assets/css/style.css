@@ -200,8 +200,10 @@ textarea{min-height:130px;resize:vertical}
 
 /* ---------- footer ---------- */
 .site-footer{background:var(--black);color:#b5b5b5;font-size:14.5px}
-.fgrid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px;padding:56px 0 40px}
-.fgrid img{height:46px;width:auto;margin-bottom:14px}
+.ftop{padding:56px 0 44px}
+.fgrid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px}
+.wordmark{font-size:20px;font-weight:600;color:var(--white);letter-spacing:.01em;margin-bottom:10px}
+.wordmark span{font-weight:300}
 .fgrid p{line-height:1.6}
 .fgrid h4{color:var(--white);font-size:14px;font-weight:700;margin-bottom:12px}
 .fgrid ul{list-style:none}.fgrid li{padding:3px 0}
