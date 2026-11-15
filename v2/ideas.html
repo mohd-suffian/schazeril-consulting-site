@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Public+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=8">
+<link rel="stylesheet" href="assets/css/style.css?v=9">
 </head>
 <body>
 <header class="site-header"><div class="wrap">
@@ -19,19 +19,20 @@
   <button class="toggle" aria-label="Open menu" aria-controls="menu" onclick="document.getElementById('menu').classList.toggle('open')">&#9776;</button>
 </div></header>
 <main>
-<section class="phero"><div class="wrap">
+<section class="phero2"><div class="wrap">
   <div class="crumb"><a href="index.html">Home</a> &nbsp;/&nbsp; Ideas</div>
   <div class="caps">Ideas</div>
-  <h1 class="h1">How SC thinks.</h1>
+  <h1>How SC <em>thinks.</em></h1>
   <p class="lead">A distinctive way of looking at organisational challenges, beyond conventional functional or initiative-based interventions.</p>
+  <nav class="jumps" aria-label="On this page"><a href="#insights">Insights</a><a href="#books">Books</a><a href="#frameworks">Frameworks</a></nav>
 </div></section>
 
-<section class="section"><div class="wrap">
+<section class="section" id="insights"><div class="wrap">
   <div class="filters" role="tablist">
     <button class="on" data-cat="all">All</button><button data-cat="ei">Executive Insights</button><button data-cat="oi">Outside-In</button>
     <button data-cat="ar">Articles and Research</button><button data-cat="pv">Podcasts and Videos</button><button data-cat="fw">Frameworks</button>
   </div>
-  <div class="insights"><a class="insight" data-cat="ei" href="https://www.linkedin.com/in/schazerilshamsuddin/recent-activity/all/" target="_blank" rel="noopener"><div class="caps">Executive Insight</div><h3>Scaling Without Chaos: a 20-part series</h3><p>Why growth so often outpaces the operating model, and what leaders can do about it.</p><div class="meta">LinkedIn series</div></a><a class="insight" data-cat="oi" href="ideas.html"><div class="caps">SC | Outside-In<span class="sample">Sample</span></div><h3>Transformation fatigue is a design problem</h3><p>When people stop believing in change, the issue is rarely motivation.</p><div class="meta">Perspective</div></a><a class="insight" data-cat="ar" href="ideas.html"><div class="caps">Article<span class="sample">Sample</span></div><h3>Decision rights: the quiet constraint on scale</h3><p>How unclear decision authority slows execution as organisations grow.</p><div class="meta">Article</div></a><a class="insight" data-cat="fw" href="ideas.html"><div class="caps">Framework</div><h3>The High-Performance EXOSYSTEM&trade;</h3><p>Seeing organisational performance as one interconnected system.</p><div class="meta">Framework</div></a><a class="insight" data-cat="pv" href="ideas.html"><div class="caps">Podcast<span class="sample">Sample</span></div><h3>Leading through organisational complexity</h3><p>A conversation on what changes when a business doubles in size.</p><div class="meta">Episode</div></a><a class="insight" data-cat="ei" href="ideas.html"><div class="caps">Executive Insight<span class="sample">Sample</span></div><h3>From transformation activity to value realisation</h3><p>Why adoption, not go-live, is the moment that matters.</p><div class="meta">Insight</div></a></div>
+  <div class="insights"><a class="insight feature" data-cat="ei" href="https://www.linkedin.com/in/schazerilshamsuddin/recent-activity/all/" target="_blank" rel="noopener"><div class="caps">Executive Insight</div><h3>Scaling Without Chaos: a 20-part series</h3><p>Why growth so often outpaces the operating model, and what leaders can do about it.</p><div class="meta">LinkedIn series</div></a><a class="insight" data-cat="oi" href="ideas.html"><div class="caps">SC | Outside-In<span class="sample">Sample</span></div><h3>Transformation fatigue is a design problem</h3><p>When people stop believing in change, the issue is rarely motivation.</p><div class="meta">Perspective</div></a><a class="insight" data-cat="ar" href="ideas.html"><div class="caps">Article<span class="sample">Sample</span></div><h3>Decision rights: the quiet constraint on scale</h3><p>How unclear decision authority slows execution as organisations grow.</p><div class="meta">Article</div></a><a class="insight" data-cat="fw" href="ideas.html"><div class="caps">Framework</div><h3>The High-Performance EXOSYSTEM&trade;</h3><p>Seeing organisational performance as one interconnected system.</p><div class="meta">Framework</div></a><a class="insight" data-cat="pv" href="ideas.html"><div class="caps">Podcast<span class="sample">Sample</span></div><h3>Leading through organisational complexity</h3><p>A conversation on what changes when a business doubles in size.</p><div class="meta">Episode</div></a><a class="insight" data-cat="ei" href="ideas.html"><div class="caps">Executive Insight<span class="sample">Sample</span></div><h3>From transformation activity to value realisation</h3><p>Why adoption, not go-live, is the moment that matters.</p><div class="meta">Insight</div></a><a class="insight" data-cat="oi" href="ideas.html"><div class="caps">SC | Outside-In<span class="sample">Sample</span></div><h3>What growing companies get wrong about scaling</h3><p>Adding people and systems is not the same as building capacity.</p><div class="meta">Perspective</div></a><a class="insight" data-cat="pv" href="ideas.html"><div class="caps">Video<span class="sample">Sample</span></div><h3>Highlights from a Scaling Without Chaos Dialogue</h3><p>Leaders on the moment their organisation outgrew its operating model.</p><div class="meta">Video</div></a></div>
   <p class="note" style="margin-top:26px">Items marked Sample are placeholders. In the live site, SC publishes and categorises content through the content management system.</p>
 </div></section>
 
@@ -41,11 +42,11 @@
     <div><div class="caps" style="color:var(--gold)">Book</div><h3>Enough Change</h3><p>An SC publication on organisational change. Synopsis and cover to be supplied by SC.</p><a class="arrow-link" href="ideas.html#books">Learn more</a></div></div>
   <div class="book"><div class="cover alt"><small>Schazeril Consulting</small><div><div class="bar"></div><b style="display:block;margin-top:10px">What Change?</b></div></div>
     <div><div class="caps" style="color:var(--gold)">Book</div><h3>What Change?</h3><p>An SC publication on organisational change. Synopsis and cover to be supplied by SC.</p><a class="arrow-link" href="ideas.html#books">Learn more</a></div></div>
-    <div class="media"><div class="caps">SC | Outside-In</div><h3>Perspectives from outside the organisation looking in</h3><p>Independent observations on how organisations grow, stall and transform.</p><div style="margin-top:20px"><a class="btn btn-light btn-sm" href="#">Read Outside-In</a></div></div>
+    <div class="media"><div class="caps">SC | Outside-In</div><h3>Perspectives from outside the organisation looking in</h3><p>Independent observations on how organisations grow, stall and transform.</p><div style="margin-top:20px"><a class="btn btn-light btn-sm" href="ideas.html#insights">Read Outside-In</a></div></div>
   </div>
 </div></section>
 
-<section class="section"><div class="wrap exo">
+<section class="section" id="frameworks"><div class="wrap exo">
   <div><h2 class="h2">Frameworks and perspectives</h2>
     <p class="lead">The High-Performance EXOSYSTEM&trade; is the intellectual foundation connecting everything SC does. It is revealed progressively: start with the challenge, then explore the system behind it.</p>
     <div class="btns"><a class="arrow-link" href="transform.html#approach">How the EXOSYSTEM&trade; informs our work</a></div></div>
