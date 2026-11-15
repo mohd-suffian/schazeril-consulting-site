@@ -31,3 +31,8 @@ All pages share `assets/css/style.css`. Images are in `assets/img/`.
 - **Portrait:** replace `assets/img/schazeril.jpg` with the original high-resolution photo (square, at least 1200 x 1200 px).
 - **Logo:** replace `assets/img/logo-white.png` and `assets/img/logo.png` with the original vector or high-resolution files.
 - **Content:** confirm the pillar descriptions and "Signs you need this" lists on `exosystem.html` with Schazeril.
+
+## Photography
+Photos are free under the Unsplash License and load directly from Unsplash (see `PHOTOS` in the build script):
+Igor Savelev (KL skyline at sunset), Elliot Andrews (KL skyline), Filipe Freitas (Merdeka 118), Vitaly Gariev (two meeting photos).
+Swap them for client-owned photography when available.
