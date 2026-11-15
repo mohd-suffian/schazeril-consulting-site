@@ -258,3 +258,6 @@ textarea{min-height:130px;resize:vertical}
   .brand img{height:34px}
   .fbar .legal>*{padding:0 10px}
 }
+
+/* rounded images */
+.card .ph,.split .ph,.portrait{border-radius:12px;overflow:hidden}
